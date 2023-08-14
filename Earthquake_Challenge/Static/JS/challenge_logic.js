@@ -12,13 +12,13 @@ let streets = L.tileLayer('https://github.com/jrennr/Mapping_Earthquakes/blob/ma
 let satelliteStreets = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/satellite-streets-v11/tiles/{z}/{x}/{y}?access_token={accessToken}', {
   attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery (c) <a href="https://www.mapbox.com/">Mapbox</a>',
   maxZoom: 18,
-  accessToken: config.js
+  accessToken: https://github.com/jrennr/Mapping_Earthquakes/blob/main/Earthquake_Challenge/Static/JS/config.js
 });
 
 // Create a third map tile layer using Mapbox styles.
 let lightMap = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/light-v10/tiles/{z}/{x}/{y}?access_token={accessToken}', {
   maxZoom: 18,
-  accessToken: config.js
+  accessToken: https://github.com/jrennr/Mapping_Earthquakes/blob/main/Earthquake_Challenge/Static/JS/config.js
 });
 
 // Create the map object with center, zoom level, and default layer.
